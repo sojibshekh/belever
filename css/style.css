@@ -1,0 +1,520 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.ul{
+    padding: 0 !important;
+}
+body{
+    font-family: 'Roboto', sans-serif;   
+}
+a{
+   text-decoration: none;
+   padding: 0;
+    margin: 0;
+}
+.navcon{
+    display: contents;
+}
+.nav1{
+    max-width: 30%;
+}
+.nav2{
+    max-width: 70%;
+}
+.nav2 ul{
+    padding-left: 0px !important;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link i{
+    color: forestgreen;
+}
+
+.logo{
+ 
+  width: 50%;
+}
+
+#banner{
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banercon h2{
+  font-size: 48px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+   color: white;
+}
+.banercon p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+
+}
+.cont{
+    align-items: center;
+}
+.cont a{
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+   
+}
+.cat_con{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.cat_con img{
+    width: 80px;
+}
+
+.cathead{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: green; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.catdes{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black; 
+    text-transform: capitalize;
+}
+
+.footlink ul{
+    list-style: none;
+    padding: 0% !important;
+}
+
+
+.fotsocail ul{
+ list-style: none;
+ display: flex;
+ justify-content:space-around;
+}
+
+.topfoot{
+    background-color:#232425;
+
+}
+.fot1 h4{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(254, 136, 40);
+}
+.fot1 a{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(230, 235, 230);
+}
+.fot1 a i{
+    font-size: 16px;
+    color:rgb(230, 235, 230);
+}
+.footlink ul li a{
+    color:rgb(230, 235, 230)!important;
+    display: inline-block;
+}
+.bottom{
+    background-color: #363839 !important;
+}
+
+.fotsocail ul li a i{
+  color: white;
+  font-size: 24px;
+}
+
+/* search page css code start from here  */
+
+.banner-box{
+    background-color: #8f979c;
+    margin-top: 20px;
+}
+.select-icon a{
+ color: black;
+ font-size: 18px;
+ font-weight: 700;
+}
+.select-icon a i{
+    color: green;
+    font-size: 18px;
+ font-weight: 700;
+ padding-right: 4px;
+}
+.search-result{
+
+    padding: 12px 16px ;
+    color: white;
+}
+
+.searc-box{
+    background-color: #e7edee;
+   padding: 20px;
+}
+/* search page catagory sideber  css code here */
+
+.filter select{
+   border: 2px solid black;
+}
+.filter option{
+    color: black;
+    border: none;
+} 
+.widget-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    padding: 8px 0px;
+}
+.widget ul{
+    padding-left: 0px !important;
+}
+.category-list li{
+    list-style: none;
+
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+letter-spacing: 1px;
+
+text-transform: capitalize;
+color: black;
+}
+
+.category-list li a{
+    color:rgb(0, 0, 0);
+}
+.category-list li a:hover{
+    color: blue;
+}
+/* search page catagory sideber  css code here */
+
+/* search page search result css code start here  */
+.card-title a{
+    color: black;
+}
+.list-inline-item a{
+    color: black;
+}
+.list-inline-item a  i{
+   padding-right: 8px;
+   color: green;
+}
+.card-text{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.selected{
+    color: sandybrown;
+}
+/* search page search result css code end here  */
+
+.select-option{
+    border-bottom: 1px solid #8f979c;
+}
+.listinfo{
+    padding-left: 0px !important;
+}
+.listinfo li{
+ list-style: none;
+}
+.listinfo li a{
+    color: #232425;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+/* search page css code end from here  */
+
+
+/* ************
+* dashbord page css code start from here 
+************ */
+.dashboard{
+    background-color: #e7edee;
+}
+/* dashbord page sidebar css code start here  */
+
+
+.sidebar{
+    box-sizing: border-box;
+}
+.widget{
+    background: #fff;
+    box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 10%);
+    padding: 25px 30px 30px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+.user-dashboard-profile{
+    text-align: center;
+}
+.profile-thumb img{
+    width: 130px;
+    height: auto;
+    border: 5px solid #F4F7F9;
+}
+.user-dashboard-profile h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+.btn-main-sm{
+    color: #fff;
+    background: forestgreen;
+}
+.btn-main-sm{
+    color: #fff !important;
+    background: forestgreen !important;
+}
+
+.user-dashboard-menu ul li{
+    list-style: none;
+
+}
+.user-dashboard-menu ul li a{
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    font-weight: 600;
+    color: #555;
+  
+}
+.user-dashboard-menu ul li a i{
+    padding-right: 8px;
+}
+.user-dashboard-menu ul li a:hover{
+    background: forestgreen;
+    color: #fff;
+}
+.user-dashboard-menu ul li a span{
+    float: right;
+    font-size: 10px;
+    border-radius: 8px;
+    padding: 3px 8px;
+    color: #84919B;
+    background: #F4F7F9;
+}
+
+/* dashbord page sidebar css code end here  */
+.dashboard-container .product-dashboard-table thead th{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+}
+.product-thumb{
+    width: 25%;
+}
+.p-title{
+    font-size: 24px;
+}
+.product-details h4{
+    font-size: 16px;
+}
+.categories{
+    color: black;font-weight: 800;
+}
+.icon-btn ul{
+    display: flex;
+    justify-content: space-between;
+}
+.list-inline-item2{
+ list-style: none;
+ padding-right: 16px;
+}
+.list-inline-item2 a{
+    color: black;
+}
+.list-inline-item2:hober{
+    color: red;
+}
+
+/* ************
+* dashbord page css code end  from here 
+************ */
+
+
+/* *******
+*
+****** */
+
+.user-profile{
+    background-color: #e7edee;
+
+}
+
+.form-group{
+    margin-bottom: 8px;
+  
+}
+
+.choose-file{
+    border: 1px solid #ced4da;
+    padding: 4px;
+    
+}
+
+.btn-transparent{
+    padding: 10px 16px;
+    background-color: forestgreen;
+    color: white;
+}
+.btn-transparent:hover{
+    padding: 10px 16px;
+    background-color: forestgreen;
+    color: white;
+}
+
+
+
+
+
+/* ************
+* Add post page css code start here 
+*********** */
+#addpost{
+    background-color: #e7edee;
+}
+
+
+.widget-header2{
+    padding: 24px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.form-group h6{
+    color: black;
+    padding: 8px 0px;
+}
+.form-group select {
+    padding: 8px 0px;
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+}
+.form-group select:focus{
+     outline: none;
+    box-shadow: none;
+    border: 2px solid forestgreen;
+}
+.form-control{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid forestgreen;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid forestgreen;
+}
+.texta{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid forestgreen;
+}
+
+
+/* ************
+* Add post page css code end here 
+*********** */
+
+
+
+/* ************
+* single page css code end here 
+*********** */
+
+.sinlgpage{
+    background-color: #e7edee;
+}
+
+  .product-title{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.product-details .product-meta li {
+    color: #888;
+    margin-right: 25px;
+}
+.widget.price {
+    background: forestgreen;
+}
+.widget.price h4 {
+    color: #fff;
+}
+.widget.price p {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.user h4 a{
+    font-size: 24px;
+    color: black;
+}
+.member-time{
+    font-size: 14px;
+    font-weight: 400;
+}
+.user a{
+    color: black;
+    margin-bottom:  20px;
+    
+}
+.allads{
+    text-decoration: underline;
+}
+.user ul{
+    margin-top: 20px;
+}
+.user ul li{
+   list-style: none;
+
+}
+.btn-contact{
+    padding: 8px 16px ;
+    color: white !important;
+    background: forestgreen;
+  }
+  .btn-offer{
+    padding: 8px 16px ;
+    color: white !important;
+    background: forestgreen;
+  }
+  .disclaimer ul li{
+    list-style: none;
+    color: #888;
+    font-size: 16px;
+  }
+
+
+/* ************
+* single page css code end here 
+*********** */
+
+.imagbox{
+    display: flex;
+    justify-content: space-between;
+}

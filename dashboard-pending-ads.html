@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- google font cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font owasome cdn link here  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custome cdn link here -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+  <!-- header section code strat from here  -->
+  <header class="bg-dark">
+	<div class="container">
+	 <div class="row">
+	   <div class="col-md-12">
+		 <nav class="navbar navbar-expand-lg ">
+		   <div class="container-fluid">
+		   
+			 <div class="navcon">
+			   
+			   <div class="nav1">
+				 <a class="navbar-brand" href="#"><img src="img/Belever.png" alt="believer it" class="img-fluid logo" ></a>
+			   </div >
+ 
+			   <div class="nav2  mb-2  ">
+				 <ul class="navbar-nav ">
+				   <li>
+					
+				   </li>
+				   <li class="nav-item ms-2">
+					 <a class="nav-link " aria-current="page" href="search.html"><i class="fa fa-home" aria-hidden="true"></i> All Ads</a>
+				   </li>
+			
+				   <li class="nav-item ms-2">
+					 <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#inlineForm"> <i class="fa fa-user" aria-hidden="true"></i> Log in </a>
+				   </li>
+				   <li class="nav-item ms-2">
+					 <form class="d-flex " role="search">
+					   <button class="btn btn-success" type="submit">Post your Ads</a>
+					 </form>
+				   </li>
+				 </ul>
+			   </div>
+			   
+			 </div>
+  
+	   
+			   
+ 
+				 <!-- modal code start from here -->
+				 <div class="modal fade text-left" id="inlineForm" tabindex="-1" aria-labelledby="myModalLabel33" style="display: none;" aria-hidden="true">
+				   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+					   <div class="modal-content">
+						   <div class="modal-header">
+							   <h4 class="modal-title" id="myModalLabel33">Login Form </h4>
+							   <button type="button" class="close  btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">
+								 <i class="fa fa-times" aria-hidden="true"></i>
+							   </button>
+						   </div>
+						   <form action="#">
+							   <div class="modal-body">
+								   <label>Email: </label>
+								   <div class="form-group">
+									   <input type="text" placeholder="Email Address" class="form-control">
+								   </div>
+								   <label>Password: </label>
+								   <div class="form-group">
+									   <input type="password" placeholder="Password" class="form-control">
+								   </div>
+								   <div class="form-group">
+									 <input type="button" class="form-control btn btn-primary text-center" value="login">
+									 
+									</div>
+								 <p class="text-center pt-3" ><strong>Don't have an account yet?</strong></p>
+								  
+								 <div class="form-group">
+								   <input type="button" class="form-control btn btn-secondary text-center" value="sing up" data-bs-toggle="modal" data-bs-target="#inlineForm2">
+								  </div>
+							   </div>
+							   <div class="modal-footer">
+							   
+							   </div>
+						   </form>
+					   </div>
+				   </div>
+			   </div>
+ 
+			   <!-- modal 2 code shart from here  -->
+			   <div class="modal fade text-left" id="inlineForm2" tabindex="-1" aria-labelledby="myModalLabel33" style="display: none;" aria-hidden="true">
+				 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+					 <div class="modal-content">
+						 <div class="modal-header">
+							 <h4 class="modal-title" id="myModalLabel33">sing up now </h4>
+							 <button type="button" class="close  btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">
+							   <i class="fa fa-times" aria-hidden="true"></i>
+							 </button>
+						 </div>
+						 <form action="#">
+							 <div class="modal-body">
+								 <label>Name: </label>
+								 <div class="form-group">
+									 <input type="text" placeholder="Full Name " class="form-control">
+								 </div>
+								 <label>Email: </label>
+								 <div class="form-group">
+									 <input type="text" placeholder="Email Address" class="form-control">
+								 </div>
+								 <label>Password: </label>
+								 <div class="form-group">
+									 <input type="password" placeholder="Password" class="form-control">
+								 </div>
+								 <label>Confrom Password: </label>
+								 <div class="form-group">
+									 <input type="password" placeholder="Confrom Password" class="form-control">
+								 </div>
+								 <div class="form-group">
+								   <input type="button" class="form-control btn btn-primary text-center" value="sing up" >
+								  </div>
+								  <p class="text-center"><strong>Already have an account?</strong></p>
+							 </div>
+							 <div class="modal-footer">
+							   
+							   <input type="button" class="form-control btn btn-secondary text-center" value="log in" data-bs-toggle="modal" data-bs-target="#inlineForm">
+							 </div>
+						 </form>
+					 </div>
+				 </div>
+			 </div>
+ 
+			   <!-- modal 2 code end  from here  -->
+ 
+ 
+				 <!-- modal code end from here  -->
+		   
+			  
+			   
+			 </div>
+		   </div>
+		 </nav>
+	   </div>
+	 </div>
+ 
+   
+ 
+	</div>
+   </header>
+  <!-- header section code end from here  -->
+
+<!--==================================
+=            User Profile            =
+===================================-->
+<section class="dashboard section">
+	<!-- Container Start -->
+	<div class="container">
+		<!-- Row Start -->
+		<div class="row pt-5">
+			<div class="col-md-10 offset-md-1 col-lg-4 offset-lg-0">
+				<div class="sidebar">
+					<!-- User Widget -->
+					<div class="widget user-dashboard-profile">
+						<!-- User Image -->
+						<div class="profile-thumb">
+							<img src="img/user.jpg" alt="" class="rounded-circle img-thumbnail img-fluid">
+						</div>
+						<!-- User Name -->
+						<h5 class="text-center pt-3">Samanta Doe</h5>
+						<p class="text-center">Joined February 06, 2017</p>
+						<a href="user-profile.html" class="btn btn-main-sm">Edit Profile</a>
+					</div>
+					<!-- Dashboard Links -->
+					<div class="widget user-dashboard-menu">
+						<ul>
+							<li class="active" ><a href="dashboard-my-ads.html"><i class="fa fa-user"></i> My Ads</a></li>
+							<li><a href="dashboard-favourite-ads.html"><i class="fa fa-bookmark-o"></i> Favourite Ads <span>5</span></a></li>
+							<li><a href="dashboard-archived-ads.html"><i class="fa fa-file-archive-o"></i>Archived Ads <span>12</span></a></li>
+							<li><a href="dashboard-pending-ads.html"><i class="fa fa-bolt"></i> Pending Approval<span>23</span></a></li>
+							<li><a href="#"><i class="fa fa-cog"></i> Logout</a></li>
+							<li><a href="#"><i class="fa fa-power-off"></i>Delete Account</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-0">
+				<!-- Recently Favorited -->
+				<div class="widget dashboard-container my-adslist">
+					<h3 class="widget-header">pending Ads</h3>
+					<table class="table table-responsive product-dashboard-table">
+						<thead>
+							<tr>
+								<th>Image</th>
+								<th>Product Title</th>
+								<th class="text-center">Category</th>
+								<th class="text-center">Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								
+								<td class="product-thumb">
+									<img width="120px" height="auto" src="img/product/adsfqw.jpg" alt="image description"></td>
+								<td class="product-details">
+									<h3 class="p-title">Macbook Pro 15inch</h3>
+									<h4 class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</h4>
+									<h4><strong>Posted on: </strong><time>Jun 27, 2017</time> </h4>
+									<h4 class="status active"><strong>Status : </strong> Active</h4>
+									<h4 class="location"><strong>Location :</strong> Dhaka, Bangladesh</h4>
+								</td>
+								<td class="product-category"><span class="categories">Laptops</span></td>
+								<td class="action" data-title="Action">
+									<div class="icon-btn">
+										<ul class="">
+											<li class="list-inline-item2">
+												<a data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="view" href="">
+													<i class="fa fa-eye"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="edit" href="">
+													<i class="fa fa-pencil"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="delete" href="">
+													<i class="fa fa-trash"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								
+								<td class="product-thumb">
+									<img width="120px" height="auto" src="img/product/adsfd.jpg" alt="image description"></td>
+								<td class="product-details">
+									<h3 class="p-title">Macbook Pro 15inch</h3>
+									<h4 class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</h4>
+									<h4><strong>Posted on: </strong><time>Jun 27, 2017</time> </h4>
+									<h4 class="status active"><strong>Status : </strong> Active</h4>
+									<h4 class="location"><strong>Location :</strong> Dhaka, Bangladesh</h4>
+								</td>
+								<td class="product-category"><span class="categories">Laptops</span></td>
+								<td class="action" data-title="Action">
+									<div class="icon-btn">
+										<ul class="">
+											<li class="list-inline-item2">
+												<a data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="view" href="">
+													<i class="fa fa-eye"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="edit" href="">
+													<i class="fa fa-pencil"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="delete" href="">
+													<i class="fa fa-trash"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								
+								<td class="product-thumb">
+									<img width="120px" height="auto" src="img/product/adsfqw.jpg" alt="image description"></td>
+								<td class="product-details">
+									<h3 class="p-title">Macbook Pro 15inch</h3>
+									<h4 class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</h4>
+									<h4><strong>Posted on: </strong><time>Jun 27, 2017</time> </h4>
+									<h4 class="status active"><strong>Status : </strong> Active</h4>
+									<h4 class="location"><strong>Location :</strong> Dhaka, Bangladesh</h4>
+								</td>
+								<td class="product-category"><span class="categories">Laptops</span></td>
+								<td class="action" data-title="Action">
+									<div class="icon-btn">
+										<ul class="">
+											<li class="list-inline-item2">
+												<a data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="view" href="">
+													<i class="fa fa-eye"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="edit" href="">
+													<i class="fa fa-pencil"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="delete" href="">
+													<i class="fa fa-trash"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								
+								<td class="product-thumb">
+									<img width="120px" height="auto" src="img/product/adsfd.jpg" alt="image description"></td>
+								<td class="product-details">
+									<h3 class="p-title">Macbook Pro 15inch</h3>
+									<h4 class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</h4>
+									<h4><strong>Posted on: </strong><time>Jun 27, 2017</time> </h4>
+									<h4 class="status active"><strong>Status : </strong> Active</h4>
+									<h4 class="location"><strong>Location :</strong> Dhaka, Bangladesh</h4>
+								</td>
+								<td class="product-category"><span class="categories">Laptops</span></td>
+								<td class="action" data-title="Action">
+									<div class="icon-btn">
+										<ul class="">
+											<li class="list-inline-item2">
+												<a data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="view" href="">
+													<i class="fa fa-eye"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="edit" href="">
+													<i class="fa fa-pencil"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="delete" href="">
+													<i class="fa fa-trash"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								
+								<td class="product-thumb">
+									<img width="120px" height="auto" src="img/product/adsfqw.jpg" alt="image description"></td>
+								<td class="product-details">
+									<h3 class="p-title">Macbook Pro 15inch</h3>
+									<h4 class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</h4>
+									<h4><strong>Posted on: </strong><time>Jun 27, 2017</time> </h4>
+									<h4 class="status active"><strong>Status : </strong> Active</h4>
+									<h4 class="location"><strong>Location :</strong> Dhaka, Bangladesh</h4>
+								</td>
+								<td class="product-category"><span class="categories">Laptops</span></td>
+								<td class="action" data-title="Action">
+									<div class="icon-btn">
+										<ul class="">
+											<li class="list-inline-item2">
+												<a data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="view" href="">
+													<i class="fa fa-eye"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="edit" href="">
+													<i class="fa fa-pencil"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="delete" href="">
+													<i class="fa fa-trash"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								
+								<td class="product-thumb">
+									<img width="120px" height="auto" src="img//product/adsfd.jpg" alt="image description"></td>
+								<td class="product-details">
+									<h3 class="p-title">Macbook Pro 15inch</h3>
+									<h4 class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</h4>
+									<h4><strong>Posted on: </strong><time>Jun 27, 2017</time> </h4>
+									<h4 class="status active"><strong>Status : </strong> Active</h4>
+									<h4 class="location"><strong>Location :</strong> Dhaka, Bangladesh</h4>
+								</td>
+								<td class="product-category"><span class="categories">Laptops</span></td>
+								<td class="action" data-title="Action">
+									<div class="icon-btn">
+										<ul class="">
+											<li class="list-inline-item2">
+												<a data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="view" href="">
+													<i class="fa fa-eye"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="edit" href="">
+													<i class="fa fa-pencil"></i>
+												</a>		
+											</li>
+											<li class="list-inline-item2">
+												<a class="delete" href="">
+													<i class="fa fa-trash"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							
+						</tbody>
+					</table>
+					
+				</div>
+			</div>
+		</div>
+		<!-- Row End -->
+	</div>
+	<!-- Container End -->
+</section>
+<!--============================
+=            Footer            =
+=============================-->
+
+   <!-- footer section code start  from here  -->
+   <footer id="footer" class="pt-5">
+    <div class="topfoot py-5">
+    <div class="container">
+      <div class="row text-light ">
+        <div class="col-md-4 fot1">
+          <h4>Connect with</h4>
+          <a href=""> <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            Like us on facebook  </a>
+        </div>
+        <div class="col-md-3 fot1">
+          <h4>More from believer it</h4>
+          <div  class="footlink align-content-center">
+            <ul>
+              <li> <a href="">How It works</a> </li>
+              <li><a href="">Articls & Tips</a></li>
+              <li><a href="">Terms of Services</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 fot1">
+          <h4>More from believer it</h4>
+          <div  class="footlink">
+            <ul class="">
+              <li> <a href="">How It works</a> </li>
+              <li><a href="">Articls & Tips</a></li>
+              <li><a href="">Terms of Services</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="bottom py-3">
+    <div class="container">
+      <div class="row text-light">
+        <div class="col-md-4">
+          <p> Copyright &copy;believer it </p>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="fotsocail">
+            <ul class="">
+              <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a></li>
+              <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i>
+              </a></li>
+              <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+              </a></li>
+              <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  </footer>
+  <!-- footer section code end  from here  -->
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- costome javascript cdn link here  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

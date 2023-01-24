@@ -1,0 +1,143 @@
+input[type="file"] {
+    display: block;
+  }
+  .imageThumb {
+    max-height: 75px;
+    border: 2px solid;
+    padding: 1px;
+    cursor: pointer;
+  }
+  .pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+  }
+  .remove {
+    display: block;
+    background: #444;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  .remove:hover {
+    background: white;
+    color: black;
+  }
+
+ 
+
+
+  /* responsive breakpoint css code here  */
+
+
+  
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar>.container-fluid{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    align-content: space-between !important;
+  }
+  .navbar-nav{
+
+    margin-left: -48px;
+
+  }
+  .navcon{
+    display: contents;
+  }
+ .cat_con img{
+  width: 50px;
+ }
+ .catdes h3{
+   font-size: 16px;
+ }
+ .catdes h4{
+  font-size: 12px;
+ }
+ 
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar>.container-fluid{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    align-content: space-between !important;
+  }
+  .banercon h2{
+   font-size: 24px;
+  }
+  .cat_con {
+    justify-content: center;
+  }
+  .fot1{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .navbar>.container-fluid{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    align-content: space-between !important;
+  }
+  
+}
